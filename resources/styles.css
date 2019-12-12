@@ -1,0 +1,86 @@
+/* #mainDiv {
+    width: 100%;
+    border: 2px solid black;
+    padding: 5rem;
+    border-radius: 3px;
+} */
+
+/* #mainDiv {
+    width: 100%;
+} */
+
+/*h1 {*/
+/*    text-align: center;*/
+/*}*/
+
+/*#messageInput {*/
+/*    width:50%;*/
+/*}*/
+
+/*header {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 90px;*/
+/*    !* border: 1px solid red; *!*/
+/*}*/
+
+/*footer {*/
+/*    position: fixed;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    margin-top: 50px;*/
+/*    !* border: 1px solid red; *!*/
+/*}*/
+/*
+#chatDiv {
+    position: absolute;
+    top: 96px;
+    bottom: 51px;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+    padding-left: 3rem;
+    border: solid black 2px;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+/*}*/
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/*#titleDiv {*/
+/*    margin-top: 25px;*/
+/*}*/
+
+.pTagGone {
+    display: none;
+}
+
+.pTagAppear {
+    display: initial;
+}
+
+.uk-grid-small {
+    padding-bottom: 15px !important;
+}
+
+#chatInfo {
+    margin-top: 15px;
+}
+
+
+
+/*#messageInputDiv {*/
+/*    width: 100%;*/
+/*    margin-top: 15px;*/
+/*    position: fixed;*/
+/*    top: 225px;*/
+/*}*/
+
+/*#messagePTag {*/
+/*    left: 15px;*/
+/*}*/

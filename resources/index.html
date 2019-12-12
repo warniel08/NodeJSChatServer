@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>WebChat</title>
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Oxygen|Source+Code+Pro&display=swap" rel="stylesheet">
+        <script src="chat.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>    
+    <body>
+        <div id="mainDiv" class="uk-container">
+            <div class="uk-card uk-card-default uk-card-small uk-card-body uk-sticky uk-grid-row-small" style="z-index: 1;" uk-sticky="bottom: #offset" id="titleDiv" class>
+                <span class="uk-heading-small">Le Chat</span>
+                <h6><span id="chatRoomSpan" class="uk-text-center uk-text-bold"></span></h6>
+                <hr>
+                <div id="messageInputDiv" class="pTagGone">
+                    <p>
+                        Message: <input id='messageInput' type="text" placeholder="enter chat here" size="50">
+                        <br>
+                        <br>
+                        <button id="btnMessage" class="uk-button uk-button-secondary">Submit</button>
+                    </p>
+                </div>
+            </div>
+            <div id="chatInfo" class="uk-card uk-card-default uk-card-body uk-sticky uk-grid-row-small" style="z-index: 980;" uk-sticky="bottom: #offset">
+                <p>
+                    Chat Room Name: <input id="roomName" type="text" placeholder="enter room name" autofocus>
+                    <br>
+                    Name: <input id='nameInput' type="text" placeholder="enter name">
+                    <br>
+                    <br>
+                    <button id="btnRoom" class="uk-button uk-button-secondary">Join Room</button>
+                </p>
+            </div>
+            <div id="messageDiv" class="uk-child-width-1-3@m uk-grid-small uk-card-small uk-grid-match" uk-grid>
+            </div>
+        </div>
+    </body>
+</html>
